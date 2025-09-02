@@ -5,7 +5,7 @@
         </header>
         <ul class="mt-10 space-y-8">
             <li class="w-full rounded-xl shadow-lg border bg-gradient-to-t to-[#ACAC39] from-[#1F1E1C99]"
-                v-for="(item, index) in Education" :key="index">
+                v-for="(item, index) in education" :key="index">
                 <article class="flex flex-col lg:flex-row items-center lg:items-start rounded-[12px] bg-primary
                 mt-[3px] mx-[3px] p-6 md:p-8 lg:p-10">
                     <figure class="w-full lg:w-1/4 flex justify-center lg:justify-start mb-4 lg:mb-0">
@@ -27,7 +27,7 @@
 <script setup>
 import { ref } from 'vue';
 
-const Education = ref([
+const education = ref([
     {
         duration: '03/2008-07/2011',
         school: 'School 1',
