@@ -1,5 +1,5 @@
 <template>
-    <section id="projects" class="relative w-11\12 px-16 mx-auto">
+    <section id="projects" class="relative w-11/12 px-16 mx-auto">
         <SectionHead title="My Projects" />
         <!-- Custom Nav Button -->
         <button
@@ -13,8 +13,8 @@
 
         <!-- Swiper Content -->
         <swiper :effect="'coverflow'" grab-cursor centered-slides :slides-per-view="'auto'"
-            :converflowEffect="{ rotate: 50, stretch: 0, depth: 100, modifer: 1, slideShadow: true }"
-            :Navigation="navOption" pagination :modules="[EffectCoverflow, Navigation]" class="max-w-full mt-32">
+            :coverflowEffect="{ rotate: 50, stretch: 0, depth: 100, modifier: 1, slideShadow: true }"
+            :navigation="navOption" pagination :modules="[EffectCoverflow, Navigation]" class="max-w-full mt-32">
             <swiper-slide class="max-w-[300px]" v-for="(project, index) in projects" :key="index">
                 <ProjectCard :title="project.title" :description="project.description"
                     :image="'src/assets/images/' + project.image" :tags="project.tags" :liveLinks="project.liveLinks"
@@ -42,6 +42,22 @@ const navOption = {
 }
 
 const projects = ref([
+    {
+        title: 'Portofolio Website',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, excepturi.',
+        image: '',
+        tags: ['HTML', 'CSS', 'Javascript'],
+        liveLinks: '/',
+        codeLink: ""
+    },
+    {
+        title: 'Portofolio Website',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, excepturi.',
+        image: '',
+        tags: ['HTML', 'CSS', 'Javascript'],
+        liveLinks: '/',
+        codeLink: ""
+    },
     {
         title: 'Portofolio Website',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, excepturi.',
