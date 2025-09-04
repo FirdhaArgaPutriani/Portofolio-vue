@@ -48,7 +48,7 @@ const projects = ref([
         image: '',
         tags: ['HTML', 'CSS', 'Javascript'],
         liveLinks: '/',
-        codeLink: ""
+        codeLink: '/'
     },
     {
         title: 'Portofolio Website',
@@ -56,7 +56,7 @@ const projects = ref([
         image: '',
         tags: ['HTML', 'CSS', 'Javascript'],
         liveLinks: '/',
-        codeLink: ""
+        codeLink: '/'
     },
     {
         title: 'Portofolio Website',
@@ -64,7 +64,7 @@ const projects = ref([
         image: '',
         tags: ['HTML', 'CSS', 'Javascript'],
         liveLinks: '/',
-        codeLink: ""
+        codeLink: '/'
     },
     {
         title: 'Portofolio Website',
@@ -72,7 +72,7 @@ const projects = ref([
         image: '',
         tags: ['HTML', 'CSS', 'Javascript'],
         liveLinks: '/',
-        codeLink: ""
+        codeLink: '/'
     },
 ])
 </script>
